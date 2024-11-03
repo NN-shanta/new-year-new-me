@@ -42,6 +42,7 @@ main section {
 /* My failures of previous year */
 .failures {
   display: flex;
+  /* justify-content: space-around; */
 }
 .failures-image {
   width: 450px;
@@ -60,14 +61,13 @@ main section {
 /* My Plans */
 .plans-title {
   text-align: center;
-  margin-bottom: 60px ;
+  margin-bottom: 60px;
 }
 .courses {
-
 }
-.course{
-    text-align: center;
-    margin-right: 120px;
+.course {
+  text-align: center;
+  margin-right: 120px;
 }
 .courses-title {
   color: #151414;
@@ -75,4 +75,28 @@ main section {
   font-weight: 700;
   margin-top: 30px;
   margin-bottom: 15px;
+}
+/* start mindset section */
+.mindset-section {
+  background-image: url("images/gradient2.png"), url("images/watch.png");
+  width: 1140px;
+  height: 300px;
+}
+.mindset-description {
+  padding-top: 60px;
+  padding-left: 65px;
+}
+.mindset-title {
+  color: #fff;
+  width: 459px;
+}
+.mindset-btn {
+  color: #f15b22;
+  background-color: #fff;
+}
+footer {
+  width: 1600px;
+  height: 577px;
+  background: #151414;
+  margin-top: 130px;
 }
