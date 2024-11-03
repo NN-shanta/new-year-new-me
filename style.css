@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+header {
+  background-image: url("images/banner/banner2.png");
+  width: 1600px;
+  height: 809px;
+}
+/* banner design */
+.banner-description {
+  width: 525px;
+  padding: 215px 230px 300px 800px;
+  text-align: right;
+}
+.banner-title {
+  color: #151414;
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.banner-pera {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.pry-btn {
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  border-style: none;
+  background: #f15b22;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* banner design */
