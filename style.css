@@ -1,16 +1,21 @@
 * {
   margin: 0px;
+  padding: 0px;
   font-family: "Work Sans", sans-serif;
 }
-header {
+.header {
   background-image: url("images/banner/banner2.png");
-  width: 1600px;
-  height: 809px;
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
 }
 /* banner design */
 .banner-description {
-  width: 525px;
-  padding: 215px 230px 300px 800px;
+  width: 500px;
+  padding-right:100px;
   text-align: right;
 }
 .banner-title {
