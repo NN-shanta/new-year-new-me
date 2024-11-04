@@ -10,12 +10,11 @@
   display: flex;
   justify-content: right;
   align-items: center;
-
 }
 /* banner design */
 .banner-description {
   width: 500px;
-  padding-right:100px;
+  padding-right: 100px;
   text-align: right;
 }
 .banner-title {
@@ -42,12 +41,13 @@
 }
 /* banner design */
 main section {
-  margin: 150px 180px 0px;
+  width: 80%;
+  margin: 0px auto;
 }
 /* My failures of previous year */
 .failures {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
 .failures-image {
   width: 450px;
@@ -66,9 +66,8 @@ main section {
 /* My Plans */
 .plans-title {
   text-align: center;
+  margin-top: 70px;
   margin-bottom: 60px;
-}
-.courses {
 }
 .course {
   text-align: center;
@@ -84,8 +83,9 @@ main section {
 /* start mindset section */
 .mindset-section {
   background-image: url("images/gradient2.png"), url("images/watch.png");
-  width: 1140px;
+  width: 100%;
   height: 300px;
+  margin-top: 50px;
 }
 .mindset-description {
   padding-top: 60px;
@@ -100,8 +100,8 @@ main section {
   background-color: #fff;
 }
 footer {
-  width: 1600px;
-  height: 577px;
+  width: 100%;
+  height: 550px;
   background: #151414;
   margin-top: 130px;
 }
